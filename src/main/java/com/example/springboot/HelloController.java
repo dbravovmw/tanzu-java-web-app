@@ -13,6 +13,6 @@ public class HelloController {
 
         @RequestMapping("/v1/hello")
         public String hello() {
-                return "TODO: Improve this endpoint";
+                return "Greetings from the v1 hello endpoint";
         }
 }
