@@ -15,4 +15,9 @@ public class HelloController {
         public String hello() {
                 return "Greetings from the v1 hello endpoint";
         }
+
+        @RequestMapping("/v1/version")
+        public String version() {
+                return "v0.0.1";
+        }
 }
