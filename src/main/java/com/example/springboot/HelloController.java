@@ -13,11 +13,11 @@ public class HelloController {
 
         @RequestMapping("/v1/hello")
         public String hello() {
-                return "Greetings from the v1 hello endpoint";
+                return "Greetings from the hello endpoint";
         }
 
         @RequestMapping("/v1/version")
         public String version() {
-                return "v0.0.1";
+                return "v0.0.2";
         }
 }
